@@ -1,0 +1,2489 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body::-webkit-scrollbar {
+    width: 12px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  
+.a-maps-2
+{
+	color: white;
+	text-decoration: none;
+}
+
+.a-maps-2:hover
+{	
+	transition: 1.5S;
+	color:#f9615e;
+}
+  
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #d63c39;    
+    border-radius: 20px;       
+    border: 3px solid #d63c39;  
+  }
+  
+
+.a-maps:hover
+{
+	color: #d63c39;
+	transition: 1s;
+}
+
+.a-maps{
+	color: #d63c39;
+}
+
+p, li
+{
+    font-size: 19px;
+}
+
+.centraliza
+{
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.fonte-bold
+{
+    font-weight: bold;
+}
+
+.fonte-red
+{
+    color: #d63c39;
+}
+
+
+.full-banner-inicio
+{
+    background-image: url(/img/full-banner-inicio.webp);
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    border-bottom-style: none;
+    border-color: #000;
+    border-left-style: none;
+    border-radius: 0;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 1px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: cover;
+    height: 1080px;
+    padding-top: 150px;
+}
+
+.full-banner-inicio h1
+{
+    font-size: 50pt;
+    font-weight: 900;
+}
+
+.logo-topo
+{
+    margin-top: -60px;
+}
+
+.borda-inicio
+{
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    border-bottom-style: none;
+    border-color: #000;
+    border-left-style: none;
+    border-radius: 0;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 1px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: cover;
+    margin-top: 60px;
+    background-image: url(https://lp.drdanielesper.com.br/img/bg-borda-inicio.png);
+    padding: 40px;
+    background-repeat: no-repeat;
+    
+}
+
+.span-inicio
+{
+    font-weight: 600;
+}
+
+.full-banner-inicio button
+{
+    padding: 10px;
+    background-image: linear-gradient(to right, #f9615e, #f9615e 80%, #000 20%);
+    border: 1px solid #f9615e;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.full-banner-inicio button:hover
+{
+    background-image: linear-gradient(to right, #000, #000 80%, #f9615e 20%);
+    transition: 2S;
+}
+
+.full-banner-inicio button a:hover
+{
+    text-decoration-color: #d63c39;
+}
+
+
+.full-banner-inicio button a
+{
+    margin-left: 20px;
+    color: white;
+    font-size: 20pt;
+    font-weight: 900;
+}
+
+.full-banner-inicio button img
+{
+    margin-left: 126px;
+}
+
+.full-banner-inicio button span
+{
+    font-size: 30pt;
+    color: #debe75;
+}
+
+/* ------------------ PARTE 2--------------------- */
+
+.borda-negada-topo
+{
+    margin-top: 0px;
+    background-color: #f9615e;
+    padding: 40px;
+    padding-left: 230px;
+    padding-right: 230px;
+    border-radius: 200em;
+    border: 1px solid #f9615e;
+}
+
+.borda-negada-topo p
+{
+    font-size: 19pt;
+    text-align: center;
+    color: white;
+}
+
+.borda-negada-topo span
+{
+    font-weight: 900;
+}
+
+.borda-negada-topo img
+{
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+/* ------------------ FIM PARTE 2--------------------- */
+
+
+/* ------------------ parte 3 ------------------ */
+
+.bg-parte-3
+{
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    border-bottom-style: none;
+    border-color: #000;
+    border-left-style: none;
+    border-radius: 0;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 1px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.img-teste
+{
+    position: absolute;
+    top: -30px; 
+    right: 50%;
+
+    -webkit-animation: img-teste 1.5s ease-in-out infinite both;
+    animation: img-teste 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes img-teste {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes img-teste {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+.img-2
+{
+    top:0px; 
+    left:0px;
+    position: absolute;
+    z-index: 99999;
+}
+
+.img-2 img
+{
+	
+}
+
+.bg-parte-3 h2
+{
+    font-size: 28pt;
+    font-weight: 900;
+}
+
+
+.borda-texto-quem-e
+{
+  z-index: 1000;
+    background-color: #f5ead0;
+    border: 1px solid #f5ead0;
+    padding: 17px;
+    height: 708px;
+    width: 655px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: -117px;
+    /* margin-top: 57px; */
+    border-radius: 20px;
+    position: relative;
+}
+
+.borda-texto-quem-e::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 40px solid #f5ead0;
+    bottom: -4.5%;
+    left: 45%;
+}
+
+
+.borda-red-quem-e
+{
+    max-width: 1120px;
+    margin-left: -15px;
+    z-index: 1;
+    margin-top: -50px;
+    background-color: #f9615e;
+    border-radius: 20px;
+    padding: 40px;
+    padding-left: 40px;
+}
+
+.borda-red-quem-e ul li
+{
+    color: white;
+}
+
+.borda-red-quem-e ul 
+{
+	margin-left: 15px;
+    margin-top: 60px;
+    color: white;
+}
+/* ------------------- PARTE 4 --------------------- */
+
+.bg-parte-4 h2
+{
+    margin-top: 50px;
+    font-size: 27pt;
+    font-weight: bold;
+}
+
+.img-mao-no-peito
+{
+    height: 700px;
+    margin-top: -120px;
+}
+
+.borda-servicos
+{
+    max-width: 83%;
+    z-index: 10;
+    background-color: #f5ead0;
+    padding: 30px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+}
+
+.borda-servicos h3
+{
+    font-weight: bold;
+    font-size: 23pt;
+    margin-top: 0px;
+}
+
+.borda-servicos p
+{
+    display: flex;
+}
+
+.icone-verificado
+{
+    margin-right: 15px;
+
+}
+
+.img-servicos
+{
+    height: 590px;
+}
+
+#teste
+{
+    margin-left: -0px;
+}
+
+.borda-esportiva
+{
+    margin-left: 130px;
+    z-index: 0;
+    margin-top: -100px;
+    background-repeat: no-repeat;
+    background-image: url(/img/bg-avaliacao-pre-esportiva.png);
+    background-color: #f9615e;
+    border: 1px solid #f9615e;
+    max-width: 85%;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.borda-esportiva h4
+{
+    margin-top: 120px;
+    color: white;
+    font-weight: bold;
+	 font-size: 23pt;
+}
+
+.borda-esportiva p
+{
+    z-index: 2;
+    width: 88%;
+    color: white;
+    font-size: 16pt;
+}
+
+.img-coracao
+{
+    z-index: 1;
+    margin-left: -320px;
+    -webkit-animation: img-coracao 1.5s ease-in-out infinite both;
+    animation: img-coracao 1.5s ease-in-out infinite both;
+}
+
+.coracao-consulta-cardiologica
+{
+    position: absolute;
+    top: -500px; 
+    right: -5%;
+    -webkit-animation: coracao-consulta-cardiologica 1.5s ease-in-out infinite both;
+    animation: coracao-consulta-cardiologica 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes coracao-consulta-cardiologica {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes coracao-consulta-cardiologica {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+/* -------------------- PARTE 5 ---------------------------- */
+
+.bg-parte-5
+{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.pop-up
+{
+    margin-left: 40px;
+}
+
+.bg-parte-5 h4
+{
+    margin-right: 20px;
+    font-size: 24pt;
+}
+
+.no-padding
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------- PARTE 6 -------------- */
+
+.bg-hospitais
+{
+    padding-top: 40PX;
+}
+
+.bg-hospitais h2
+{
+    font-size: 30pt;
+    font-weight: 900;
+    text-align: center;
+}
+
+.borda-hospitais
+{
+    background-color: white;
+    padding: 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.borda-hospitais2
+{
+    background-color: white;
+    padding: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.logo-moriah
+{
+    margin-top: 50px;
+}
+
+.borda-hospitais3
+{
+    background-color: white;
+    padding: 90px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+/* --------------------- PARTE 7 -------------- */
+
+.bg-hospitais-negado
+{
+    background-image: url(/img/bg-hospitais-negado.png);
+    background-position-x: 90%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    border-bottom-style: none;
+    border-color: #000;
+    border-left-style: none;
+    border-radius: 0;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 1px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: cover;
+    margin-top: -120px;
+    padding-bottom: 220px;
+}
+
+.bg-hospitais-negado h4
+{
+    margin-top: 250px;
+}
+
+
+/* --------------------- PARTE 8 -------------- */
+
+.bg-parte-8  
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.img-teste2
+{
+    z-index: 0;
+    position: absolute;
+    top: -140px; 
+    left: 0%;
+    float: left;
+
+    -webkit-animation: img-teste2 1.5s ease-in-out infinite both;
+    animation: img-teste2 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes img-teste2 {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes img-teste2 {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+  .modal-body
+  {
+    padding: 0;
+    border-radius: 10px;  
+  }
+
+  .modal-content
+  {
+    border-radius: 30px;
+  }
+
+  .bg-parte-8 button
+  {
+    margin-top: 70px;
+    margin-right: 20px;
+    border: 1px solid white;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  #mao {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #d63c39;
+    animation: click-animation 1s infinite;
+  }
+  
+  @keyframes click-animation {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(-10deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+  
+ /* --------------------- PARTE 9 -------------- */
+
+ .bg-parte-9
+ {
+    padding-top: 60px;
+    padding-bottom: 0px;
+ }
+
+ .bg-parte-9 button
+ {
+    background-image: linear-gradient(to right, #f9615e, #f9615e 80%, #000 20%);
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+ }
+
+ .bg-parte-9 button:hover
+ {
+    background-image: linear-gradient(to right, #000, #000 80%, #f9615e 20%);
+    animation-duration: 2s;
+ }
+
+
+ .bg-parte-9 button a
+ {
+    color: white;
+    font-size: 22pt;
+    font-weight: 600;
+    margin-right: 70px;
+    text-align: left;
+    text-decoration: none;
+ }
+
+ .bg-parte-9 button a img
+ {
+    float: right;
+    margin-right: 25px;
+ }
+
+ .margin-button
+ {
+    margin-top: 80px;
+    margin-bottom: 20px;
+ }
+
+ .img-coracao
+{
+    z-index: 0;
+    position: absolute;
+    top: -240px; 
+    right: 0%;
+    float: left;
+
+    -webkit-animation: img-coracao 1.5s ease-in-out infinite both;
+    animation: img-coracao 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes img-coracao {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes img-coracao {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+
+/* -------------- FOOTER ------------ */
+
+.bg-footer
+{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.bg-footer hr
+{
+    background: #d63c39;
+    height: 2.5px;
+}
+
+.bg-footer h4
+{
+   color: white;
+   font-weight: bold;
+}
+
+#p-wta3
+{
+    text-align: center;
+    color: white;
+    font-size: 11pt;
+    margin-top: 30px;
+}
+
+.bg-footer p
+{
+    color: white;
+}
+
+.bg-footer img
+{
+    float:  right;
+    padding-left: 15px;
+}
+
+
+
+/* ---------------------- MEDIA QUERIES -------------------- */
+
+@media(max-width: 991.98px)
+{
+	
+	.bg-footer {
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+	
+	.icone-verificado {
+		margin-right: 40px;
+    max-width: 100%;
+    height: auto;
+}
+	
+	.borda-esportiva p {
+    z-index: 2;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+	
+    .esconde-mobile
+    {
+        display: none;
+    }
+	
+	   .borda-texto-quem-e {
+		height: auto;
+    }
+}
+
+@media(min-width:1200px) and (max-width: 1500px)
+{
+    .full-banner-inicio button a {
+        font-size: 20pt;
+        float: left;
+        position: relative;
+        left: 0%;
+    }
+
+    .full-banner-inicio button img {
+        float: right;
+        position: relative;
+        left: 66%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+}
+
+@media(min-width:1095px) and (max-width: 1340px)
+{
+    .bg-parte-9 button a
+    {
+        font-size: 16pt;
+    }
+
+    .pop-up
+    {
+        margin-left: 14px;
+    }
+}
+
+@media(min-width: 991px) and (max-width: 1200px)
+{
+    .borda-texto-quem-e
+    {
+        width: 106%;
+        margin-left: -27px;
+        margin-top: 0px;
+        padding: 23px;
+        padding-left: 59px;
+        padding-right: 20px;
+		height: auto;
+    }
+
+    .borda-texto-quem-e::after
+    {
+        bottom: -3%;
+    }
+
+   .img-2 img {
+		height: 106%;
+		width: 100%;
+		margin-top: 177px;
+	}
+
+    .img-mao-no-peito {
+        height: 792px;
+        margin-top: -120px;
+    }
+
+    .full-banner-inicio button a {
+        font-size: 20pt;
+        float: left;
+        position: relative;
+        left: 0%;
+    }
+
+    .borda-servicos {
+        max-width: 100%;
+    }
+
+    .borda-esportiva
+    {
+        margin-left: 80px;
+        width: 100%;
+    }
+
+    .full-banner-inicio button img {
+        float: right;
+        position: relative;
+        left: 30%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media(min-width: 991.99px) and (max-width: 1500px)
+{
+    .bg-hospitais-negado {
+        background-position-x: 97%;
+        padding-bottom: 78px;
+    }
+
+    .borda-negada-topo {
+        padding: 40px 100px;
+        border-radius: 100em;
+    }
+
+    .full-banner-inicio h1 {
+        font-size: 40pt;
+    }
+
+}
+
+@media(min-width:991.99px) and (max-width: 1094.99px)
+{
+    .bg-parte-9 button a
+    {
+        font-size: 16pt;
+        width: 108%;
+    }
+
+    .bg-parte-9 button 
+    {
+        font-size: 16pt;
+        width: 108%;
+    }
+
+    .bg-parte-9 button a img
+    {
+        margin-right: 10px;
+    }
+
+    .pop-up
+    {
+        margin-left: 4px;
+    }
+}
+
+@media(min-width: 767.99px) and (max-width: 991.98px)
+{
+    .full-banner-inicio button {
+        width: 91%;
+    }
+
+    .borda-servicos {
+        max-width: 100%;
+    }
+
+    .borda-esportiva
+    {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .borda-inicio
+    {
+        background-color: #f5ead0;
+        width: 70%;
+    }
+
+    .bg-hospitais-negado {
+        background-position-x: 97%;
+        padding-bottom: 0px;
+    }
+
+    .bg-hospitais-negado h4 {
+        margin-top: 250px;
+        margin-bottom: 44px;
+    }
+
+    .borda-negada-topo {
+        padding: 40px 100px;
+        border-radius: 5em;
+    }
+
+    .borda-red-quem-e
+    {
+        margin-left: 26px;
+		height: auto;
+    }
+
+    .img-2
+    {
+        position: unset;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .borda-texto-quem-e {
+        margin-left: 40px;
+    }
+
+    .borda-texto-quem-e::after
+    {
+        bottom: 45%;
+    }
+
+    .full-banner-inicio h1 {
+        font-size: 40pt;
+    }
+
+    .full-banner-inicio button a {
+        font-size: 17pt;
+    }
+
+    .full-banner-inicio button img {
+        margin-left: 68px;
+    }
+
+    .borda-hospitais3 {
+        padding: 23px;
+    }
+
+    .bg-parte-9 button a
+    {
+        font-size: 18pt;
+        width: 70%;
+        
+    }
+
+    .img-mao-no-peito
+    {
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .bg-parte-8 .no-padding  
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-8 button 
+    {
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bg-parte-9 button 
+    {
+        font-size: 16pt;
+        width: 70%;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bg-parte-9 h2
+    {
+        margin-top: 20px;
+    }
+
+    .img-coracao {
+        z-index: 0;
+        position: absolute;
+        top: -784px;
+        right: 0%;
+        float: left;
+        -webkit-animation: img-coracao 1.5s ease-in-out infinite both;
+        animation: img-coracao 1.5s ease-in-out infinite both;
+    }
+
+    .margin-button
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-9 button a img
+    {
+        margin-right: 10px;
+    }
+
+    .pop-up
+    {
+        margin-left: 10px;
+    }
+    
+    .bg-parte-5 h4 {
+        margin-left: 35px;
+        font-size: 24pt;
+    }
+}
+
+@media(min-width: 550.99px) and (max-width: 767.98px)
+{
+    .full-banner-inicio {
+        background-position-x: 57%;
+    }
+
+    .full-banner-inicio button {
+        width: 100%;
+    }
+
+    .borda-inicio
+    {
+        background-color: #f5ead0;
+        width: 80%;
+    }
+
+    .bg-hospitais-negado {
+        background-position-x: 97%;
+        padding-bottom: 0px;
+    }
+
+    .bg-hospitais-negado h4 {
+        margin-top: 250px;
+        margin-bottom: 44px;
+    }
+
+    .borda-negada-topo {
+        padding: 20px 20px;
+        border-radius: 5em;
+        width: 110%;
+        margin-left: -40px;
+    }
+
+    .borda-negada-topo img {
+        margin-top: -78px;
+        margin-bottom: 20px;
+    }
+
+    .borda-red-quem-e
+    {
+        margin-left: 26px;
+    }
+
+    .img-2
+    {
+        position: unset;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .img-2 img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .borda-texto-quem-e {
+        margin-left: 10px;
+        width: 100%;
+		height: auto;
+    }
+
+    .borda-esportiva {
+        margin-top: -130px;
+    }
+
+    .img-servicos {
+        height: auto;
+    }
+
+    .borda-texto-quem-e::after
+    {
+        bottom: -3%;
+        left: 46%;
+    }
+
+    .borda-servicos
+    {
+        max-width: 100%;
+    }
+
+    .borda-esportiva
+    {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .full-banner-inicio h1 {
+        font-size: 35pt;
+    }
+
+    .full-banner-inicio button a {
+        margin-left: 0px;
+    }
+
+    .full-banner-inicio button a {
+        font-size: 17pt;
+    }
+
+    .full-banner-inicio button img {
+        margin-left: 44px;
+    }
+
+    .borda-hospitais3 {
+        padding: 23px;
+    }
+
+    .bg-parte-9 button a
+    {
+        font-size: 18pt;
+        width: 70%;
+        
+    }
+
+    .img-mao-no-peito
+    {
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .bg-parte-8 .no-padding  
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-8 button 
+    {
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bg-parte-9 button 
+    {
+        font-size: 16pt;
+        width: 94%;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bg-parte-9 h2
+    {
+        margin-top: 20px;
+    }
+
+    .img-coracao {
+        z-index: 0;
+        position: absolute;
+        top: -1280px;
+        right: 0%;
+        float: left;
+        -webkit-animation: img-coracao 1.5s ease-in-out infinite both;
+        animation: img-coracao 1.5s ease-in-out infinite both;
+    }
+
+    .margin-button
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-9 button a img
+    {
+        margin-right: 10px;
+    }
+
+    .pop-up
+    {
+        margin-left: 0px;
+    }
+    
+    .bg-parte-5 h4 {
+        margin-left: 20px;
+        font-size: 21pt;
+    }
+}
+
+@media(max-width: 550px){
+    
+    .borda-negada-topo p
+    {
+        font-size: 19.5px;
+    }
+}
+
+@media(min-width: 420.99px) and (max-width: 550.98px)
+{
+    p
+    {
+        font-size: 19.5px;
+    }
+
+    .full-banner-inicio {
+        background-position-x: 0%;
+        background: url(/img/topo-mobile.webp);
+		 background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+		max-width: 100%;
+		height: 1080px;
+		padding-top: 150px;
+    }
+
+    .full-banner-inicio button {
+        width: 110%;
+        margin-left: -10px;
+    }
+
+    .borda-inicio
+    {
+        background-color: #f5ead0;
+        width: 100%;
+    }
+
+    .bg-hospitais-negado {
+        background-position-x: 97%;
+        padding-bottom: 0px;
+    }
+
+    .bg-hospitais-negado h4 {
+        margin-top: 250px;
+        margin-bottom: 44px;
+    }
+
+    .borda-negada-topo {
+        padding: 40px 40px;
+        border-radius: 5em;
+        width: 120%;
+        margin-left: -40px;
+    }
+
+    .borda-red-quem-e
+    {
+        margin-left: 26px;
+    }
+
+    .img-2
+    {
+        position: unset;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .img-2 img
+    {
+        height: auto;
+        max-width: 100%;
+		height: auto;
+    }
+
+
+    .borda-texto-quem-e {
+        margin-left: 10px;
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+		height: auto;
+    }
+
+    .borda-red-quem-e {
+        padding: 25px;
+    }
+
+    .borda-esportiva {
+        margin-top: -130px;
+        margin-left: 0px;
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .img-servicos {
+        height: 250px;
+    }
+
+    .borda-texto-quem-e::after
+    {
+        bottom: -2.5%;
+        left: 40%;
+    }
+
+    .borda-servicos
+    {
+        max-width: 100%;
+    }
+
+    .bg-parte-4 h2 {
+        margin-top: 10px;
+        font-size: 26pt;
+        font-weight: bold;
+    }
+
+    .full-banner-inicio h1 {
+        font-size: 30pt;
+    }
+
+    .full-banner-inicio button a {
+        margin-left: 0px;
+    }
+
+    .full-banner-inicio button a {
+        font-size: 16pt;
+        position: relative;
+        left: -5%;
+    }
+
+    .full-banner-inicio button img {
+            margin-left: -4px;
+			float: right;
+			width: 28px;
+			margin-top: 2px;
+    }
+
+    .borda-hospitais3 {
+        padding: 23px;
+    }
+
+    .bg-parte-9 button a
+    {
+        font-size: 15pt;
+        width: 70%;
+        
+    }
+
+    .img-mao-no-peito
+    {
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .bg-parte-8 .no-padding  
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-8 button 
+    {
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bg-parte-9 button 
+    {
+        font-size: 16pt;
+        width: 100%;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bg-parte-9 h2
+    {
+        margin-top: 20px;
+    }
+
+    .img-coracao {
+        z-index: 0;
+        position: absolute;
+        top: -1280px;
+        right: 0%;
+        float: left;
+        -webkit-animation: img-coracao 1.5s ease-in-out infinite both;
+        animation: img-coracao 1.5s ease-in-out infinite both;
+    }
+
+    .margin-button
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-9 button a img
+    {
+        margin-right: 10px;
+    }
+
+    .pop-up
+    {
+        margin-left: 0px;
+    }
+    
+    .bg-parte-5 h4 {
+        margin-left: 20px;
+        font-size: 18.5pt;
+    }
+}
+
+@media(min-width: 380.99px) and (max-width: 420.98px)
+{
+    p
+    {
+        font-size: 18.5px;
+    }
+
+    .full-banner-inicio {
+        background-position-x: 34%;
+		background: url(/img/topo-mobile.webp);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-attachment: scroll;
+		max-width: 100%;
+		height: 1080px;
+		background-position-x: 34%;
+		padding-top: 150px;
+		background-position-y: 52%;
+	}
+
+    .full-banner-inicio button {
+        width: 120%;
+        margin-left: -25px;
+    }
+
+    .borda-inicio
+    {
+        background-color: #f5ead0;
+        width: 100%;
+    }
+
+    .bg-hospitais-negado {
+        background-position-x: 97%;
+        padding-bottom: 0px;
+    }
+
+    .bg-hospitais-negado h4 {
+        margin-top: 250px;
+        margin-bottom: 44px;
+    }
+
+    .borda-negada-topo {
+        padding: 40px 40px;
+        border-radius: 5em;
+        width: 125%;
+        margin-left: -40px;
+		margin-top: -196px;
+    }
+
+    .borda-red-quem-e
+    {
+        margin-left: 0px;
+    }
+
+    .img-2
+    {
+        position: unset;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .img-2 img
+    {
+        height: auto;
+        max-width: 100%;
+    }
+
+
+    .borda-texto-quem-e {
+        margin-left: 0px;
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+		height: auto;
+    }
+
+    .borda-red-quem-e {
+        padding: 25px;
+    }
+
+    .borda-esportiva {
+        margin-top: -130px;
+        margin-left: 0px;
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .borda-servicos {
+        max-width: 100%;
+    }
+
+    .img-servicos {
+        height: 295px;
+    }
+
+    .borda-texto-quem-e::after
+    {
+        bottom: -3%;
+        left: 40%;
+    }
+
+    .bg-parte-4 h2 {
+        margin-top: 10px;
+        font-size: 26pt;
+        font-weight: bold;
+    }
+
+    .full-banner-inicio h1 {
+        font-size: 26pt;
+    }
+
+    .full-banner-inicio button a {
+        margin-left: 0px;
+    }
+
+    .full-banner-inicio button a {
+        font-size: 14pt;
+        position: relative;
+        left: -5%;
+    }
+
+    .full-banner-inicio button img {
+       	margin-left: -4px;
+		float: right;
+		width: 28px;
+		margin-top: -1px;
+    }
+
+    .borda-hospitais3 {
+        padding: 23px;
+    }
+
+    .bg-parte-9 button a
+    {
+        margin-right: 30px;
+        font-size: 15pt;
+        width: 70%;
+        
+    }
+
+    .img-mao-no-peito
+    {
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .bg-parte-8 .no-padding  
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-8 button 
+    {
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bg-parte-9 button 
+    {
+        font-size: 16pt;
+        width: 100%;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bg-parte-9 h2
+    {
+        margin-top: 20px;
+    }
+
+    .img-coracao {
+        z-index: 0;
+        position: absolute;
+		top: -1280px;
+        right: 0%;
+        float: left;
+        -webkit-animation: img-coracao 1.5s ease-in-out infinite both;
+        animation: img-coracao 1.5s ease-in-out infinite both;
+    }
+
+    .margin-button
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-9 button a img
+    {
+        margin-right: 5px;
+    }
+
+    .pop-up
+    {
+        margin-left: 0px;
+    }
+    
+    .bg-parte-5 h4 {
+        margin-left: 20px;
+        font-size: 18.5px;
+    }
+}
+
+@media(min-width: 345.99px) and (max-width: 380.98px)
+{
+    p
+    {
+        font-size: 18.5px;
+    }
+	
+    .full-banner-inicio {
+        background-position-x: 34%;
+		background: url(/img/topo-mobile.webp);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-attachment: scroll;
+		max-width: 100%;
+		height: 1080px;
+		background-position-x: 34%;
+		padding-top: 150px;
+		background-position-y: 58%;
+	}
+
+    .full-banner-inicio button {
+        width: 130%;
+        margin-left: -30px;
+    }
+
+    .borda-inicio
+    {
+        background-color: #f5ead0;
+        width: 100%;
+    }
+
+    .bg-hospitais-negado {
+        background-position-x: 97%;
+        padding-bottom: 0px;
+    }
+
+    .bg-hospitais-negado h4 {
+        margin-top: 250px;
+        margin-bottom: 44px;
+    }
+
+    .borda-negada-topo {
+        padding: 40px 40px;
+        border-radius: 5em;
+        width: 125%;
+        margin-left: -40px;
+		margin-top: -196px;
+    }
+
+    .borda-red-quem-e
+    {
+        margin-left: 0px;
+    }
+
+    .img-2
+    {
+        position: unset;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .img-2 img
+    {
+        height: auto;
+        max-width: 100%;
+    }
+
+
+    .borda-texto-quem-e {
+        margin-left: 0px;
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+		height: auto;
+    }
+
+    .borda-red-quem-e {
+        padding: 25px;
+    }
+
+    .borda-esportiva {
+        margin-top: -130px;
+        margin-left: 0px;
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .borda-servicos {
+        max-width: 100%;
+    }
+
+    .img-servicos {
+        height: 200px;
+    }
+
+    .borda-texto-quem-e::after
+    {
+        bottom: -2.5%;
+        left: 40%;
+    }
+
+    .bg-parte-4 h2 {
+        margin-top: 10px;
+        font-size: 26pt;
+        font-weight: bold;
+    }
+
+    .full-banner-inicio h1 {
+        font-size: 25pt;
+    }
+
+    .full-banner-inicio button a {
+        margin-left: 0px;
+    }
+
+   
+    .full-banner-inicio button a {
+        font-size: 13pt;
+        position: relative;
+        left: -5%;
+    }
+
+    .full-banner-inicio button img {
+        margin-left: 0px;
+        float: right;
+        width: 20px;
+        margin-top: 3px;
+    }
+
+    .borda-hospitais3 {
+        padding: 23px;
+    }
+
+    .bg-parte-9 button a
+    {
+        margin-right: 0px;
+        text-align: left;
+        font-size: 15pt;
+        width: 100%;
+        float: left;
+    }
+
+    .img-mao-no-peito
+    {
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .bg-parte-8 .no-padding  
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-8 button 
+    {
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bg-parte-9 button 
+    {
+        font-size: 16pt;
+        width: 100%;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bg-parte-9 h2
+    {
+        margin-top: 20px;
+    }
+
+    .img-coracao {
+        z-index: 0;
+        position: absolute;
+        top: -1280px;
+        right: 0%;
+        float: left;
+        -webkit-animation: img-coracao 1.5s ease-in-out infinite both;
+        animation: img-coracao 1.5s ease-in-out infinite both;
+    }
+
+    .margin-button
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-9 button a img
+    {
+        margin-right: 5px;
+        width: 30px;
+    }
+
+    .pop-up
+    {
+        margin-left: 0px;
+    }
+    
+    .bg-parte-5 h4 {
+        margin-left: 20px;
+        font-size: 18.5px;
+    }
+}
+
+@media(min-width: 0.99px) and (max-width: 345.98px)
+{
+    p
+    {
+        font-size: 16px;
+    }
+
+    .full-banner-inicio {
+        background-position-x: 34%;
+		background: url(/img/topo-mobile.webp);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-attachment: scroll;
+		max-width: 100%;
+		height: 1080px;
+		background-position-x: 34%;
+		padding-top: 150px;
+		background-position-y: 58%;
+	}
+
+
+    .full-banner-inicio button {
+        width: 130%;
+        margin-left: -30px;
+    }
+
+    .borda-inicio
+    {
+        background-color: #f5ead0;
+        width: 100%;
+    }
+
+    .bg-hospitais-negado {
+        background-position-x: 97%;
+        padding-bottom: 0px;
+    }
+
+    .bg-hospitais-negado h4 {
+        margin-top: 250px;
+        margin-bottom: 44px;
+    }
+
+    .borda-negada-topo {
+		    margin-top: -196px;
+        padding: 40px 40px;
+        border-radius: 5em;
+        width: 125%;
+        margin-left: -40px;
+    }
+
+    .borda-red-quem-e
+    {
+        margin-left: 0px;
+    }
+
+    .img-2
+    {
+        position: unset;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .img-2 img
+    {
+        height: auto;
+        max-width: 100%;
+    }
+
+
+    .borda-texto-quem-e {
+        margin-left: 0px;
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+		height: auto;
+		
+    }
+
+    .borda-red-quem-e {
+        padding: 25px;
+    }
+
+    .borda-esportiva {
+        margin-top: -130px;
+        margin-left: 0px;
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .borda-servicos {
+        max-width: 100%;
+    }
+
+    .img-servicos {
+        height: 200px;
+    }
+
+    .borda-texto-quem-e::after
+    {
+        bottom: -2.5%;
+        left: 40%;
+    }
+
+    .bg-parte-4 h2 {
+        margin-top: 10px;
+        font-size: 26pt;
+        font-weight: bold;
+    }
+
+    .full-banner-inicio h1 {
+        font-size: 22pt;
+    }
+
+    .full-banner-inicio button a {
+        margin-left: 0px;
+    }
+
+
+    .full-banner-inicio button a {
+        font-size: 16px;
+        position: relative;
+        left: -5%;
+    }
+
+    .full-banner-inicio button img {
+        margin-left: 0px;
+        float: right;
+        width: 18px;
+        margin-top: 3px;
+    }
+
+    .borda-hospitais3 {
+        padding: 23px;
+    }
+
+    .bg-parte-9 button a
+    {
+        margin-right: 0px;
+        text-align: left;
+        font-size: 15pt;
+        width: 100%;
+        float: left;
+    }
+
+    .img-mao-no-peito
+    {
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .bg-parte-8 .no-padding  
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-8 button 
+    {
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bg-parte-9 button 
+    {
+        font-size: 16pt;
+        width: 100%;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bg-parte-9 h2
+    {
+        margin-top: 20px;
+    }
+
+    .img-coracao {
+        z-index: 0;
+        position: absolute;
+        top: -1280px;
+        right: 0%;
+        float: left;
+        -webkit-animation: img-coracao 1.5s ease-in-out infinite both;
+        animation: img-coracao 1.5s ease-in-out infinite both;
+    }
+
+    .margin-button
+    {
+        margin-top: 40px;
+    }
+
+    .bg-parte-9 button a img
+    {
+        margin-right: 5px;
+        width: 30px;
+    }
+
+    .pop-up
+    {
+        margin-left: 0px;
+    }
+    
+    .bg-parte-5 h4 {
+        margin-left: 20px;
+        font-size: 18.5pxpt;
+    }
+}
+
+@media(max-width: 474.99px)
+{
+	
+	.h1-minhas-especialidades
+{
+	text-align: center; font-size: 27pt; padding-top: 30px; padding-bottom: 30px;
+}	
+	
+  .botao-fixo-rodape-1
+  {
+     position: fixed;
+    bottom: -33px;
+    width: 100%;
+    height: 70px;
+    z-index: 9999;
+  }
+
+  .botao-fixo-rodape-2
+  {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    height: 70px;
+    z-index: 9997;
+  }
+
+  .img-rodape-2
+  {
+    width: 10%;
+  }
+
+  .img-rodape-1
+  {
+    width: 10%;
+  }
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 7%;
+    height: 95%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    background-color: black;
+}
+
+@media(min-width:475px) and (max-width: 700.99px)
+{
+   .botao-fixo-rodape-1
+  {
+     position: fixed;
+    bottom: -33px;
+    width: 100%;
+    height: 70px;
+    z-index: 9999;
+  }
+
+  .botao-fixo-rodape-2
+  {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    height: 70px;
+    z-index: 9997;
+  }
+
+  .img-rodape-2
+  {
+    width: 10%;
+  }
+
+  .img-rodape-1
+  {
+    width: 10%;
+  }
+}
+
+@media(min-width:701px) and (max-width: 10000px)
+{
+   .botao-fixo-rodape-1
+  {
+     position: fixed;
+    bottom: -33px;
+    width: 100%;
+    height: 70px;
+    z-index: 9999;
+  }
+
+  .botao-fixo-rodape-2
+  {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+  }
+
+  .img-rodape-2
+  {
+    width: 7%;
+  }
+
+  .img-rodape-1
+  {
+    width: 7%;
+  }
+}
+
+@media(min-width: 991.99px) and (max-width: 1156156156px)
+{
+    .esconde-desktop
+    {
+        display: none;
+    }
+}
+
+
+.modal-body {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.modal-body h2
+{
+	  font-size: 26px;
+	color: #d63c39;
+	font-weight: bold;
+}
+
+.modal-body a
+{
+		color: #d63c39;
+} 
+
+.modal-body p a
+{
+		color: black;
+} 
+
+
+.hover-rede1:hover
+{
+	-webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5);
+}
+
+.hover-rede2:hover
+{
+	-webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5);
+}
+
